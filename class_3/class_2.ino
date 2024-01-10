@@ -227,5 +227,6 @@ void loop() {
   tmp = upload(m01.result,m01.result,m01.result);
   if(tmp == 1){
     m01.limit_status = 111;
+    Serial.println("clear this->.result data");
   }
  }
